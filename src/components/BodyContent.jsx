@@ -2,7 +2,7 @@ import React from 'react'
 
 function BodyContent() {
   return (
-    <div className='BodyContent'>BodyContent</div>
+    <div className='BodyContent'>Te amo meu amor</div>
   )
 }
 
