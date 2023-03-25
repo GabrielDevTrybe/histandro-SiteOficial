@@ -18,7 +18,24 @@ body {
 
 
 .BodyContent {
+  /* border: red solid 3px; */
+  height: 100px;
   color: red;
+  text-align: center;
+}
+
+.description-content {
+  color: white;
+  font-size: 25px;
+}
+
+.Logo {
+  display: flex;
+  justify-content: end;
+}
+
+.img-logo {
+  /* border: blue solid 2px; */
 }
 
 
