@@ -2,9 +2,11 @@ import React from 'react'
 
 function Home() {
   return (
-    <header id='Header'>
-      <h1 id='Titulo'>Histandro Oficial</h1>
-    </header>
+    <>
+      <header id='Header'>
+        <h1 id='Titulo'>HISTORIAS ANTES DE DORMIR</h1>
+      </header>
+    </>
   )
 }
 
