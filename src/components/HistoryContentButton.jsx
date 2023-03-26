@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function HistoryContentButton() {
   return (
-    <div  className='history-button-container'>dasd
+    <div  className='history-button-container'>
     <Link to='/historias' className='link'>CONTOS</Link>
     </div>
   )
