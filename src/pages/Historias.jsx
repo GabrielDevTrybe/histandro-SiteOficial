@@ -2,8 +2,9 @@ import React from 'react'
 
 function Historias() {
   return (
-    <div style={{color:'white', fontSize: '50px'}}>AQUI VAI FICAR AS HISTORINHAS</div>
-  )
+    <header id='Header'>
+    <h1 id='Titulo'>HISTORIAS ANTES DE DORMIR</h1>
+  </header>  )
 }
 
 export default Historias
