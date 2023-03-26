@@ -5,12 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 import BodyContent from './components/BodyContent';
+import HistoryContentButton from './components/HistoryContentButton';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <App />
     <BodyContent />
+    <HistoryContentButton />
   </BrowserRouter>
 );
 

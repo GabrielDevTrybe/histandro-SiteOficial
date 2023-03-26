@@ -16,7 +16,7 @@ function BodyContent() {
       </div>
       <div className='BodyContent'>
         <p className='description-content'>
-          Para o público que gosta de gêneros como:<br></br> terror, fantasia, suspense, drama, aventura e romance
+          Para o público que gosta de gêneros como: terror, fantasia, suspense, drama, aventura e romance
           <br></br> Garanto a vocês, grandes emoções 👻      </p>
       </div>
     </>
