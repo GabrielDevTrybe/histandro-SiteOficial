@@ -50,7 +50,8 @@ ul {
 @media screen and (max-width: 550px ) {
   #burguer{
 position: relative; 
- bottom: 10px;
+ bottom: 12px;
+ left: 10px;
 }
 }
 
