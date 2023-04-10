@@ -49,10 +49,10 @@ ul {
 
 @media screen and (max-width: 550px ) {
   #burguer{
-position: relative; 
- bottom: 12px;
- left: 5px;
-}
+    position: relative; 
+    bottom: 12px;
+    left: 5px;
+ }  
 }
 
 
@@ -68,6 +68,8 @@ position: relative;
 @media screen and (max-width: 550px) {
   #Titulo {
     font-size: 22px;
+    position: relative;
+    right: 10px;
   }
 }
 
