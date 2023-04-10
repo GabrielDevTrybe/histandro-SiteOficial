@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../images/histandro.jpeg'
+// import Logo from '../images/histandro.jpeg'
 import May from '../images/May.jpeg'
 
 function BodyContent() {
@@ -12,7 +12,7 @@ function BodyContent() {
             <p className='Mayara'>MAYARA</p>
           </div>
         </div>
-        <img className='img-logo' src={Logo} alt="histandro" />
+        {/* <img className='img-logo' src={Logo} alt="histandro" /> */}
       </div>
       <div className='BodyContent'>
         <p className='description-content'>

@@ -7,13 +7,52 @@ body {
 #Header {
   border: white solid 3px;
   background-color: #128FBB;
-  text-align: center;
+  /* text-align: center; */
+  display: flex;
+  justify-content: space-around;
 }
+
+@media screen and (max-width: 881px ) {
+  .menu-navigation{
+    border: red solid 2px;
+    display: none;
+  }
+}
+
+.menu-navigation {
+  /* background-color: red; */
+  width: 350px;
+  margin-top: 15px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  /* margin: 30px; */
+}
+
+#burguer {
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+#burguer:hover {
+  color: black;
+}
+
+@media screen and (min-width: 881px ) {
+  #burguer{
+    display: none;
+  }
+}
+
+
 
 
 #Titulo {
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 20px;
 }
 
 
@@ -29,10 +68,10 @@ body {
   font-size: 20px;
 }
 
-.Logo {
+/* .Logo {
   display: flex;
   justify-content: end;
-}
+} */
 
 /* .img-logo {
   /* border: blue solid 2px; */
@@ -51,6 +90,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 15px;
 }
 
 .Mayara {
@@ -64,6 +104,14 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+@media screen  and (max-width: 325px) {
+  .history-button-container{
+    position: relative;
+    top: 30px;
+  }
+}
+
+
 .history-button-container {
 /* border: red solid 2px; */
 margin: 30px;
@@ -74,6 +122,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-weight: 500;
 }
 
+  
 .link {
   text-decoration: none;
   font-size: 40px;
@@ -116,3 +165,10 @@ font-weight: 500;
   transform: scaleX(1);
 }
 
+li {
+  color: white;
+}
+
+.material-icons{
+  color: white;
+}
