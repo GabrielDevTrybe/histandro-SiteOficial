@@ -205,4 +205,6 @@ a {
 
 #ul-links{
   background-color: #128FBB;
+  border: solid 3px white;
+  padding: 5px;
 }
