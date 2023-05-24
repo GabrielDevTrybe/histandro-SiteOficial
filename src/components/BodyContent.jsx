@@ -5,7 +5,7 @@ import May from '../images/May.jpeg'
 function BodyContent() {
   return (
     <>
-      <div className='Logo'>
+      <div className='Logo pt-24'>
         <div className='container-may'>
           <div className='May-and-img'>
             <img className='img-may' src={May} alt="May" />

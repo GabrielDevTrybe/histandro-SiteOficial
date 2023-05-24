@@ -38,7 +38,7 @@ function Home() {
           </menu>
         </nav> */}
         
-<nav id='teste' className="bg-white border-gray-200 dark:bg-gray-900">
+<nav id='teste' className="bg-white border-gray-200 dark:bg-gray-900 fixed">
   <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
     <a href="https://flowbite.com/" className="flex items-center">
         {/* <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="Flowbite Logo" /> */}
@@ -49,21 +49,21 @@ function Home() {
       <svg className="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd"></path></svg>
     </button>
     <div className="hidden w-full md:block md:w-auto" id="navbar-default">
-      <ul id='ul-links'  className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-blue-800 md:dark:bg-gray-900 dark:border-gray-700">
+      <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border-2 border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0">
         <li>
-          <a href="#" className="block py-2 pl-3 pr-4 text-black-900 rounded hover:bg-black-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-black-500 dark:hover:bg-black-700 dark:hover:text-black md:dark:hover:bg-transparent" aria-current="page">Home</a>
+          <a href="#" className="block py-2 pl-3 pr-4 text-black-900 rounded md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0" aria-current="page">Home</a>
         </li>
         <li>
-          <a href="#" className="block py-2 pl-3 pr-4 text-black-900 rounded hover:bg-black-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-black-500 dark:hover:bg-black-700 dark:hover:text-black md:dark:hover:bg-transparent">About</a>
+          <a href="#" className="block py-2 pl-3 pr-4 text-black-900 rounded md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">About</a>
         </li>
         <li>
-          <a href="#" className="block py-2 pl-3 pr-4 text-black-900 rounded hover:bg-black-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-black-500 dark:hover:bg-black-700 dark:hover:text-black md:dark:hover:bg-transparent">Services</a>
+          <a href="#" className="block py-2 pl-3 pr-4 text-black-900 rounded md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Services</a>
         </li>
         <li>
-          <a href="#" className="block py-2 pl-3 pr-4 text-black-900 rounded hover:bg-black-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-black-500 dark:hover:bg-black-700 dark:hover:text-black md:dark:hover:bg-transparent">Pricing</a>
+          <a href="#" className="block py-2 pl-3 pr-4 text-black-900 rounded md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Pricing</a>
         </li>
         <li>
-          <a href="#" className="block py-2 pl-3 pr-4 text-black-900 rounded hover:bg-black-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-black-500 dark:hover:bg-black-700 dark:hover:text-black md:dark:hover:bg-transparent">Contact</a>
+          <a href="#" className="block py-2 pl-3 pr-4 text-black-900 rounded md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Contact</a>
         </li>
       </ul>
     </div>
