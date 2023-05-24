@@ -51,7 +51,7 @@ function Home() {
     <div className="hidden w-full md:block md:w-auto" id="navbar-default">
       <ul  className="font-medium flex flex-col p-4 md:p-0 mt-4 border-2 border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0">
         <li>
-          <a href="#" className="block py-2 pl-3 pr-4 rounded md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0" aria-current="page">Home</a>
+          <a href="#" className="block py-2 pl-3 pr-4 rounded  md:border-0  md:p-0" aria-current="page">Home</a>
         </li>
         <li>
           <a href="#" className="block py-2 pl-3 pr-4 rounded md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">About</a>
