@@ -1,6 +1,7 @@
 
 body {
   background-color: black;
+  min-width: 425px;
 }
 
 #Header {
@@ -207,3 +208,8 @@ a {
   border: solid 3px white;
   padding: 5px;
 }
+
+/* .tamanho{
+  min-width: 425px;
+
+} */

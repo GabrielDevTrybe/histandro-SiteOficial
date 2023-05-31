@@ -21,23 +21,7 @@ function Home() {
   return (
     <>
       <header id='Header'>
-        <div className='fix-div'></div>
-        {/* <h1 id='Titulo'>HISTORIAS ANTES DE DORMIR</h1> */}
-          {/* <i id='burguer' class="material-icons">
-            menu
-          </i> */}
-        {/* <nav class="menu-navigation">
-          <menu>
-
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Sobre</a></li>
-              <li><a href="#">Serviços</a></li>
-              <li><a href="#">Contato</a></li>
-            </ul>
-          </menu>
-        </nav> */}
-        
+        <div className='fix-div'></div>        
 <nav id='teste' className="bg-white border-gray-200 dark:bg-gray-900 fixed">
   <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
     <a href="https://flowbite.com/" className="flex items-center">
